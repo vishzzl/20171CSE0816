@@ -1,0 +1,38 @@
+body{
+background-image:url("1.jpeg");
+background-repeat:repeat;
+background-attachment:fixed;
+}
+h1{
+color:red;
+margin-left:40px
+
+background-color:white;
+}
+p#pr{
+background-color:white;
+color:blue;
+text-shadow: 3px 3px 2px red;
+border:4px dotted;
+
+}
+div#a {
+background-color:white;
+text-decoration:line-through;
+border:4px dashed red;
+height:65px
+}
+div.b {
+background-color:white;
+text-decoration:overline;
+border:4px double red;
+}
+
+.c{
+background-color:white;
+text-decoration:underline overline;
+text-decoration-style:wavy;
+border:4px dotted red;
+
+
+}
