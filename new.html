@@ -2,6 +2,7 @@
 <head>
 <title> CSS 1</title>
 <Style type="text/css" media="all">
+p{color:red;}
 body{
 background-color:linen;
 }
@@ -77,7 +78,52 @@ p.margin{
 margin:10px 10px 10px 10px
 
 
+}
+p.padd{
+padding-top:100px;
+padding-right:50px;
+padding-bottom:20px;
+padding-left:100px;
+border: dotted red 10px;
+}
+div.i{
 
+border: double red ;
+
+}
+
+div.box{
+width:300px;
+border:5px solid green;
+padding:50px;
+margin:25px;
+
+}
+p.ex3 {display:inline-block;}
+
+
+div.nav{
+border:solid black 5px;
+background-color:grey;
+padding:50px;
+margin:25px
+}
+
+a:link{
+color:white;
+text-decoration:none;
+}
+a:visited{
+color:red;
+text-decoration:underline;
+}
+a:hover{
+color:blue;
+text-decoration:overline underline;
+text-decoration-style:wavy;
+}
+a:active{
+color:pink;
 }
 
 </style>
@@ -95,6 +141,32 @@ margin:10px 10px 10px 10px
 	<img id=d height=50%  src="/home/Sem6B12/Desktop/CSE0816/iron.jpg">		
 	<img id=solid height=50%  src="/home/Sem6B12/Desktop/CSE0816/iron.jpg">	
 	<p class=margin > PARAGRAPH WITH MARGIN AND STYLE </p>
+	<p class="padd"> THIS IS PADDING EXAMPLLE</p>
+	<div class=i>
+	<p class=padd> div TAG</p>
+	</div>
+	<div class=box>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex3">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<div class=box>
+<a href="https://www.gmail.com/"> GO TO GOOGLE </a>
+<a href="https://www.gmail.com/"> GO TO GOOGLE </a>
+</div>
+		<div class=nav>
+
+<a class=lin href="https://www.w3schools.com/css/css_float.asp"> home </a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a class=lin href="https://www.twitter.com/"> Contact</a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+<a class=lin href="https://www.gmail.com/"> About us  </a>
+
+		</div>
 
 
 
