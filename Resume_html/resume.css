@@ -3,30 +3,26 @@ div{
 }
 body{
 	background-image:url("back.jpg");
+
 	background-attachment:fixed;
 }
 
-h2 h3{
+
+h2{
 	margin:10px;
 	font-family:Times
 	
 }
 
-h2.mail a {
+h2.name a {
 	text-decoration:none;
 	
 }
-.mail:hover{
-	color:#9f63f2;
+h2.name:hover{
+	color:red;
 	text-decoration:underline;
-	
-}
+}	
 
-h2.mail a:hover{
-	color:#9f63f2;
-	text-decoration:underline;
-	
-}
 div.top{
 	width:100%
 	border:1px solid white;
@@ -37,12 +33,12 @@ div.top{
 	
 
 }
+
+
 div.in{
 	margin:5px;
 	background-color:white;
 	width:370px;
-	
-	
 	
 }
 
@@ -119,3 +115,9 @@ div.quali{
 	padding-bottom:16px;
 	marh
 }
+
+p.obj:hover{
+	font-size:large;
+}
+
+	
