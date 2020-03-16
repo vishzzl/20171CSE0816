@@ -1,4 +1,8 @@
 div{
+	border:2px solid black;
+	margin:2px;
+
+	padding:5px;
 	background-color:#010e63;
 }
 body{
@@ -7,51 +11,62 @@ body{
 	background-attachment:fixed;
 }
 
+div.out{
+	
+	margin:5px;
+	overflow:auto;
+}
+h2.name{
+	display:inline;
+}
+
+div.in{
+	margin:1px;
+	width:400px;
+	background:white;
+	align:center-left;
+	overflow:auto;
+	
+}
+
+div.in:hover + h2.mail{
+	display:block;
+}
+
+img.img{
+	width:100px;
+	float:right;
+}
+
 
 h2{
 	margin:10px;
 	font-family:Times
 	
 }
-
-h2.name a {
-	text-decoration:none;
-	
-}
-h2.name:hover{
-	color:red;
-	text-decoration:underline;
-}	
-
-div.top{
-	width:100%
-	border:1px solid white;
-	background-color:#010e63;
-	overflow:auto;
-	padding:5px;
-
-	
-
+h2.name a{
+	text-decoration-style:dotted;
+	transition:color 2s;
 }
 
-
-div.in{
-	margin:5px;
+h2.name a:hover{
+	color:red
+}
+	
+h2.mail{
 	background-color:white;
-	width:370px;
-	
+	width:350px;
+	border:1px solid black;
+	padding:5px;
+	margin:10px;
+	display:none;
+	transition:display 20s;
 }
 
-
-div.top img{
-	margin=10px;
-	border:solid black;
-	
-}
 div.Career_ob{
 	border:1px solid black;
 	padding:5px; 
-	width:100%;
+	
 	
 }
 div.Cin{
@@ -70,28 +85,7 @@ img.pic{
 	height:150px;
 }
 
-ul{
-list-style-type:none;
-background-color:yellow;
-width:515px;
-height:15px;
-margin:0px;
-padding:10px;
-}
-li{
-	float:left;
-	
-}
 
-li a{
-	text-decoration:none;
-	padding :7px 10px;
-}
-
-li a:hover{
-	background-color:pink;
-	color:black;
-}
 table{
 	background-color:white;
 	
@@ -117,7 +111,51 @@ div.quali{
 }
 
 p.obj:hover{
-	font-size:large;
+	font-size:large
+
+}
+td.clg a{
+	color:blue;
+}
+td:clg a:active{
+	color:green;
+}
+td.clg a:hover{
+	color:red;
 }
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
