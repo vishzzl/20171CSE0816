@@ -1,6 +1,6 @@
 div{
 	border:2px solid black;
-	margin:2px;
+	margin-bottom:20px;
 	
 	padding:5px;
 	background-color:#010e63;
@@ -224,17 +224,59 @@ float:right;
 	}
 
 
+#internship{
+	background-color:#beff4d;
+	border:none;
+	width:75%;
+	padding:15px;
+	
+	margin:auto;
+	
+}
 
 
+h2#intern{
+	padding:15px;
+	border-style:dotted;
+	
+}
 
 
+.cmp{
+	margin-left:250px;
+	background-color:#e3dede;
+	border:none;
+	width:275px;
+	margin-bottom:10px;
+	transition:width 1s;
+	
+}
+.cmp:hover{
+	width:350px;
+	
+}
 
+#R:hover{
+	background-color:red;
+	
+}
+#o:hover{
+	background-color:orange;
+}
+#y:hover{
+	background-color:yellow;
+}
+#g:hover{
+	background-color:green;
+}
 
-
-
-
-
-
-
+.details{
+	margin-left:20px;
+	color:#e3dede;
+	
+}
+.cmp:hover + .details{
+color:white
+}
 
 
