@@ -1,13 +1,15 @@
 div{
 	border:2px solid black;
 	margin-bottom:20px;
-	
+
+
 	padding:5px;
 	background-color:#010e63;
 }
 body{
 	background-color:white;
 	background-attachment:fixed;
+	font-family:"Calibri";
 }
 ul.nav{
 	
@@ -38,59 +40,79 @@ ul.nav  a li{
 ul.nav li:hover{
 	background-color:#c0e6ed;
 }
-
-
-
-div.out{
-	margin:5px;
+div#info{
+	background-color:#339E66FF;
+	border:none;
+	margin:auto;
+	transition:box-shadow 3s;
+	width:80%;
 	overflow:auto;
+	
 }
-h2.name{
-	display:inline;
+#info:hover{
+	border:1px inset;
+	border-left:none;
+	box-shadow:10px 10px #918e86;
 }
 
+img#pic{
+	width:150px;
+	margin-left:35px;
+	float:left;
+	border-style:ridge;
+	border-width:5px;
+	
+}
+h1#name{
+	color;#078282FF;
+	font-family:"Calibri";
+	display:innline;
+	margin-left:220px;
+	
+} 
 div.in{
-	margin:1px;
-	width:400px;
-	background:white;
-	align:center-left;
-	overflow:auto;
-	
-}
+float:right;
+border:none;
+margin-top:15px;
+margin-right:25px;
+width:100%;
+height:auto;
+overflow:auto;
+background-color:#95DBE5FF;
+padding:5px;
+transition:2s;
+border:8px white solid;
 
-div.in:hover + h2.mail{
-	display:block;
 }
-
-img.img{
-	width:100px;
+div.in:hover{
+	border:1px solid white; 
+	box-shadow:10px 10px;
+}
+ul#contact{
 	float:right;
+	list-style-type:none;
 }
 
-
-h2{
-	margin:10px;
-	font-family:Times
-	
+ul#contact li{
+	margin:2px;
 }
-h2.name a{
-	text-decoration-style:dotted;
-	transition:color 2s;
+a{
+	text-decoration:none;
 }
 
-h2.name a:hover{
-	color:red
+ul#contact a:hover{
+	color:red;
 }
-	
-h2.mail{
-	background-color:white;
-	width:350px;
-	border:1px solid black;
-	padding:5px;
-	margin:10px;
-	display:none;
+img.icon{
+	padding-left:10px;
+	height:24px;
+	width:35px;
 }
-
+p.Obj{
+	float:left;
+	width:800px;
+	margin-left:20px;
+}	
 div.Career_ob{
 	border:1px solid black;
 	padding:5px; 
@@ -278,5 +300,4 @@ h2#intern{
 .cmp:hover + .details{
 color:white
 }
-
 
