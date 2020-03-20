@@ -113,27 +113,6 @@ p.Obj{
 	width:800px;
 	margin-left:20px;
 }	
-div.Career_ob{
-	border:1px solid black;
-	padding:5px; 
-	
-	
-}
-div.Cin{
-	padding:1px;
-	background-color:white;
-	border:1px solid white;
-	opacity:0.7;
-}
-
-
-img.pic{
-	border:5px solid black;
-	float:right;
-	display:block;
-	width:200px;
-	height:150px;
-}
 
 
 table{
@@ -157,10 +136,13 @@ th:hover{
 div#quali{
 	background-color:#010e63;
 	padding-bottom:16px;
+	width:80%;
+	margin:auto;
+
 	
 }
 
-p.obj:hover{
+p.Obj:hover{
 	font-size:large
 
 }
@@ -173,7 +155,10 @@ td.clg a:hover,td.clg a:active{
 }
 
 
-
+div#skill{
+	width:80%;
+	margin:auto;
+}
 
 ul.out{
 	background:white;
