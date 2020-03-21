@@ -64,7 +64,7 @@ img#pic{
 	
 }
 h1#name{
-	color;#078282FF;
+	
 	font-family:"Calibri";
 	display:innline;
 	margin-left:220px;
@@ -109,6 +109,7 @@ img.icon{
 	width:35px;
 }
 p.Obj{
+	color:#078282FF;
 	float:left;
 	width:800px;
 	margin-left:20px;
@@ -242,9 +243,10 @@ float:right;
 }
 
 
-h2#intern{
-	padding:15px;
-	border-style:dotted;
+h1#intern{
+	
+	
+	text-shadow:2px 2px white;
 	
 }
 
@@ -271,18 +273,69 @@ h2#intern{
 	background-color:orange;
 }
 #y:hover{
-	background-color:yellow;
-}
-#g:hover{
 	background-color:green;
 }
 
+
 .details{
-	margin-left:20px;
+	margin-left:10px;
 	color:#e3dede;
 	
 }
 .cmp:hover + .details{
 color:white
 }
+div#learning{
+	float:right;
+	border:none;
+	background-color:#f5d5b5;
+	margin-right:350px;
+	width:900px;
+	display:block;
+	margin-bottom:0px;
+}
+#ti{
+	text-shadow:2px 2px black;
+	color:white;
+	font-size:25px;
+	margin-top:0px;
+	padding:17px;
+	background-color:#ab2dbd;
+}
+#ln li{
+	font-size:large;
+	padding:2px;
+}
 
+div#ab{
+	display:none;
+	float:right;
+	border:none;
+	background-color:#f5d5b5;
+	margin-right:350px;
+	margin-left:0px;
+	width:900px;
+	
+	
+}
+#g{
+	transition: width 0s;
+	float:left;
+}
+#g:hover  {
+width:367px;
+background-color:#5257ff;
+
+}
+div#ab{
+background-color:#de5309;
+height:60px;i
+justify-content:center;
+}
+p#about{
+	font-size:large;
+	
+}
+div#g:hover + div#ab {
+display:block;
+}
