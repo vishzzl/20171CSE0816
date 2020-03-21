@@ -1,8 +1,6 @@
 div{
 	border:2px solid black;
 	margin-bottom:20px;
-
-
 	padding:5px;
 	background-color:#010e63;
 }
@@ -129,15 +127,15 @@ th:hover{
 	opacity:0.5;
 }
 
-.heading{
-	background-color:#f5bc7a;
-	width:350px;
-	padding:10px;
-}
 div#quali{
-	background-color:#010e63;
+	background-color:#be4dff;
+}
+
+div#qualis{
+	background-color:#fffaa3;
+	border:none;
 	padding-bottom:16px;
-	width:80%;
+	width:75%;
 	margin:auto;
 
 	
@@ -157,8 +155,10 @@ td.clg a:hover,td.clg a:active{
 
 
 div#skill{
-	width:80%;
+	width:75%;
+	background-color:#ffc7f6;
 	margin:auto;
+	border:none;
 }
 
 ul.out{
@@ -232,7 +232,7 @@ float:right;
 	}
 
 
-#internship{
+.heading{
 	background-color:#beff4d;
 	border:none;
 	width:75%;
@@ -242,7 +242,9 @@ float:right;
 	
 }
 
-
+div#internship{
+	background-color:#ffa34d;
+}
 h1#intern{
 	
 	
@@ -258,6 +260,7 @@ h1#intern{
 	width:275px;
 	margin-bottom:10px;
 	transition:width 1s;
+	box-shadow:2px 2px;
 	
 }
 .cmp:hover{
@@ -293,6 +296,7 @@ div#learning{
 	width:900px;
 	display:block;
 	margin-bottom:0px;
+	box-shadow:2px 2px;
 }
 #ti{
 	text-shadow:2px 2px black;
@@ -315,7 +319,7 @@ div#ab{
 	margin-right:350px;
 	margin-left:0px;
 	width:900px;
-	
+	box-shadow:2px 2px;
 	
 }
 #g{
@@ -338,4 +342,68 @@ p#about{
 }
 div#g:hover + div#ab {
 display:block;
+}
+
+div#Work{
+	background-color:#ffe24f;
+}
+
+div#Workshop{
+	background-color:#b5ffff;
+	width:75%;
+	border:none;
+	padding:10px;
+	margin:auto;
+}
+
+div#W_in{
+	background-color:#ffc6c2;
+	margin:auto;
+	width:75%;
+	border-color:white;
+	box-shadow: 5px 5px;
+	}
+	
+ul#W li{
+		padding:5px;
+		font-size:large;
+	}
+	
+div#gallery{
+	background-color:#fc4e4e;
+}
+div#container{
+	margin:auto;
+	
+	width:75%;
+	overflow:auto;
+	
+	
+}
+div.gallery {
+  margin-left:55px;
+  margin-top:25px;
+  border: 1px solid #ccc;
+  float: left;
+  width:auto;
+  overflow:auto;
+  background-color:white;
+}
+
+div.gallery:hover {
+  border: 5px solid white;
+}
+
+div.gallery img {
+	border:1px solid black;
+  width: 275px;
+  height: 175px;
+}
+
+div.desc {
+	margin-top:5px;
+  padding: 15px;
+  text-align: center;
+  background-color:white;
+  border:none;
 }
