@@ -1,0 +1,173 @@
+<html>
+<head>
+<title> Job fair registration</title>
+<script src="form.js"></script>
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body align="center"> 
+<div id="top">
+<img class="center" id="logo" src="logo.jpg">
+<h2>Job Fair Registraion</h2>
+</div>
+<br/>
+<div id="form">
+<form id="jobfair" Onsubmit="return validate()" > 
+
+<fieldset>
+
+<table align="center"  cellpadding="5px;" cellspacing="5px;"  >
+<tr>
+<td colspan="4" class="heading">Personal details</td>
+</tr>
+
+<tr>
+<td class="details"><label for="id">Name </label></td>
+<td> <input type="text" id="Fname" id="Fname" placeholder="First Name"></td>
+<td> <input type="text" id="id" placeholder="Middle Name(optional)"></td>
+<td> <input type="text" id="Lname" placeholder="Last Name"></td>
+</tr>
+<tr>
+
+<td  class="details" ><label for="dob">DOB</label></td>
+<td><input type="date" align="center" id="dob" ></td>
+<td colspan="2"  class="details" ><label for="id">&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Age</label>
+<input type="number" id="age" placeholder="age" min="18" max="26"></td>
+</tr>
+<tr>
+<td > <label for="gender" > Gender</label></td>
+<td> <input type="radio" id="male" name="gender" value="Male"required>
+<label for="male">Male</label> 
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+<input type="radio" id="Other" name="gender" value="Other">
+<label for="Other">Other</label></td>
+</tr>
+<tr>
+<td class="details"><label for="id">Email</label></td>
+<td> <input type="email" id="mail" placeholder="Email"></td>
+
+<td colspan="2"class="details" align="center"><label for="id">Ph no</label>
+ <input type="text" id="phno" placeholder="phone number" ></td>
+</tr>
+<tr>
+<td colspan="4" class="heading">Marks section</td>
+</tr>
+<tr>
+<td > <label for="10marks" > 10<sup>th</sup> std </label></td>
+ <td colspan='3'><input type="number" id="TmarksP" placeholder="percent" min="0" max="100">% &nbsp&nbsp&nbsp
+ <input type="Text" id="TmarksC" placeholder="Cgpa" pattern="[A-C]{1}">Grade(A,B,C)</td>
+</tr>
+
+<tr>
+<td > <label for="10marks" > PUC </label></td>
+ <td colspan='3'><input type="number" id="PmarksP" placeholder="percent" min="0" max="100">% &nbsp&nbsp&nbsp
+ <input type="Text" id="PmarksC" placeholder="Cgpa" pattern="[A-C]{1}">Grade(A,B,C)</td>
+</tr>
+<tr>
+<td > <label for="10marks" > Degree</label></td>
+ <td colspan='3'><input type="number" id="DmarksP" placeholder="percent" min="0" max="100">% &nbsp&nbsp&nbsp
+ <input type="Text" id="DmarksC" placeholder="Cgpa" pattern="[A-C]{1}">Grade(A,B,C)</td>
+</tr>
+<tr>
+<td>
+</td>
+</tr>
+<tr>
+<td ><label for ="Spec"> Branch</label>
+</td>
+<td>
+<select id="Spec" >
+<option value="0" selected>Select</option>
+<option value="CSE" >CSE</option>
+<option value="IT">IT</option>
+<option value="EEE" >EEE</option>
+<option value="CIVIL" >CIVIL</option>
+<option value="MECH" >MECH</option>
+</select>
+</td>
+
+<td align="right"><label for ="yop"> Year of<br> passing </label>
+</td>
+<td>
+<select id="yop" >
+<option value="0" selected>Select</option>
+<option value="2020" >2020</option>
+<option value="2021" >2021</option>
+<option value="2022" >2022</option>
+</select>
+</td>
+</tr>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="4" class="heading">Technical Skill </td>
+</tr>
+<tr align="center">
+<td>
+<input type="checkbox" id="s1" Value="JAVA"/>
+<label for="JAVA">JAVA</label>
+</td>
+<td >
+<input type="checkbox" id="s2" Value="C"/>
+<label for="C">C</label>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox" id="s3" value="C++"/>
+<label for="C++">C++</label>
+</td>
+<td>
+<input type="checkbox" id="s4" Value="DBMS"/>
+<label for="DBMS">DBMS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+</td>
+<td>
+<input type="checkbox" id="s5" value="CCNA"/>
+<label for="CCNA">CCNA&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+</td>
+</tr>
+<tr>
+<td colspan="4" class="heading">Document submission </td>
+</tr>
+<tr>
+<td>
+<label for="pic">Photo</label>
+</td>
+<td colspan="3">
+<input type="file" id="pic" class=" up">
+</td>
+</tr>
+<tr>
+<td>
+<label for="pic">Signature</label>
+</td>
+<td colspan="3">
+<input type="file" id="sign" class=" up">
+</td>
+</tr>
+<tr>
+<td>
+<label for="pic">Resume</label>
+</td>
+<td colspan="3">
+<input type="file" id="resume" class=" up">
+</td>
+</tr>
+
+</fieldset>
+</table>
+<input id="submit" type="submit" value="submit">
+ <input id="submit" type="reset" value="Reset">
+
+
+
+
+
+
+</form>
+
+</div>
+<p> Created by vishal(20171CSE0816)</p>
+</body>
+<html>

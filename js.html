@@ -1,0 +1,71 @@
+<html>
+<body>
+
+<h2>Simple calculator</h2>
+
+<p>Please input a number between 1 and 10:</p>
+
+<input type="number" id="numb" min="1" max="10"><br/>
+<br/>
+<input type="number"  id="numb1" min="1" max="10"><br/>
+
+<button type="button" onclick="add()">add</button>
+<button type="button" onclick="sub()">sub</button>
+<button type="button" onclick="multi()">multi</button>
+<button type="button" onclick="div()">div</button>
+<p id="demo"></p>
+
+<script>
+function add() {
+  var x,y,z;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+  y = document.getElementById("numb1").value;
+  z=parseInt(x)+parseInt(y);
+  // If x is Not a Number or less than one or greater than 10
+  
+  document.getElementById("demo").innerHTML = z;
+}
+function sub() {
+  var x,y,z;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+  y = document.getElementById("numb1").value;
+  z=parseInt(x)-parseInt(y);
+  // If x is Not a Number or less than one or greater than 10
+  
+  document.getElementById("demo").innerHTML = z;
+}
+function multi() {
+  var x,y,z;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+  y = document.getElementById("numb1").value;
+  z=parseInt(x)*parseInt(y);
+  // If x is Not a Number or less than one or greater than 10
+  
+  document.getElementById("demo").innerHTML = z;
+}
+function div() {
+  var x,y,z;
+  x = document.getElementById("numb").value;
+  y = document.getElementById("numb1").value;
+	if (y<=0){
+	  document.getElementById("demo").innerHTML = "can not divide by zeiro";
+	  }
+  // Get the value of the input field with id="numb"
+  else{
+  z=parseInt(x)/parseInt(y);
+  // If x is Not a Number or less than one or greater than 10
+  
+  document.getElementById("demo").innerHTML = z;
+}
+}
+
+</script>
+
+</body>
+</html> 

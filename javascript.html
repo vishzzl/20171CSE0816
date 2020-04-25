@@ -1,0 +1,49 @@
+<html>
+<head>
+<script>
+function a(){
+var name=prompt("enter name");
+ document.getElementById("write").innerHTML = name;
+}
+function b(){
+var name=prompt("enter name");
+ confirm("your name is "+name+"?");
+ document.getElementById("write1").innerHTML = "you have confirmed your name is "+ name;
+}
+function c(){
+var name=prompt("enter name");
+var i;
+var text="";
+for(i=0;i<5;i++){
+ text+=name+"<br/>"
+ }
+ document.getElementById("write3").innerHTML = text;
+}
+function d(){
+var a=document.getElementById("n1").value;
+var b=document.getElementById("n2").value;
+var c;
+c=parseInt(a)+parseInt(b);
+document.getElementById("write4").innerHTML = c;
+}
+
+</script>
+</head>
+<body align="center">
+<h2>1. javscript to read and print your name using prompt dialog box</h2>
+<input type="button" onclick="a();" value="click here"/>
+<p id="write"><p>
+<h2>2. javascript code to confirm your name using prompt and confirm boxes</h2>
+<input type="button" onclick="b();" value="click here"/>
+<p id="write1"></p>
+<h2>3. javascript code to print your name 5 times on a button click</h2>
+<input type="button" onclick="c();" value="click here"/>
+<p id="write3"></p>
+<h2>4. javascript code to read two numbers and print the sum</h2>
+<input type="number" placeholder="enter number1" id="n1"/> <br/><br/>
+<input type="number" placeholder="enter number2" id="n2"/> <br/><br/>
+<input type="button" onclick="d()" value="add"/>
+<p id="write4"></p>
+</body>
+
+</html>
